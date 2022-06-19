@@ -142,7 +142,10 @@ section {
 
 }
 
-.left-box h1, .title {
+.left-box h1 {
+    text-transform: lowercase;
+}
+.title {
     text-transform: lowercase;
 }
 
@@ -219,7 +222,7 @@ footer p {
     }
     
     .right-box img {
-        border-radius: 0px;
+        border-radius: 0;
         width: 50%;
     }
     
